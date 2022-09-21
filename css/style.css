@@ -270,3 +270,15 @@ body {
 
  }
 
+ .flex-container {
+  display: flex;
+  background-color: #002323;
+}
+
+.flex-container > div {
+  background-color: #dee3ef;
+  margin: 20px;
+  padding: 20px;
+  font-size: 16px;
+}
+
