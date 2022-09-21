@@ -165,7 +165,7 @@ h4 {
 .banner-text-div {
   display: grid;
   align-items: 15px;
-  margin-left: 550px;
+  margin-left: 700px;
   margin-right: 100px;
 }
 
@@ -190,6 +190,7 @@ h4 {
 
 .banner-btn {
   margin-top: 1em;
+  margin-left: 300px;
 }
 
 .banner-btn-item {
