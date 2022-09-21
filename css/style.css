@@ -12,7 +12,6 @@
 
 body {
   font-family: Courier; 
-
   background-attachment: fixed;
   background-size: cover;
   background-color: #002323;
@@ -21,7 +20,6 @@ body {
 
 .top-banner-section {
   display: grid;
-  
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
@@ -105,6 +103,14 @@ body {
   font-weight: 700;
   font-family: cinder, sans-serif;
   font-size: 40px;
+}
+
+h1 {
+  font-size: 128px;
+  color: #dee3ef;
+  font-family: cinder, sans-serif;
+  margin: 100px;
+  letter-spacing: 4px;
 }
 
 h2 {
@@ -209,3 +215,58 @@ p {color: #dee3ef;
 margin-left: 100px;
 font-weight: 900px;
 }
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: courier;
+}
+
+.column {
+  float: left;
+  width: 16%;
+  padding: 0 10px;
+}
+
+.row {margin: 90px -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  text-align: justify;
+  text-justify: inter-word;
+  background-color: #dee3ef;
+  font-family: courier;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.flexContainer
+{display: flex;
+  justify-items: center;
+
+ }
+
+ .txp2p {
+  color: #002323;
+
+ }
+
